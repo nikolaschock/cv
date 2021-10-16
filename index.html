@@ -1,70 +1,80 @@
 <!DOCTYPE html>
 <html>
+    <link href="styles.css" rel="stylesheet"/>
 <head>
     <meta charset="UTF-8">
-    <table>
-        <tr>
-            <td><img src="Photo.jpg" width="200" alt="here should've been my photo"></td>
-            <td><h1>Nikita Melentev
-            <p><h3><em>Analyst with interest in writing code</em></h3></p>
-            <p><h3><em>Also in <strong>learning languages</strong> including programming</em></h3></p>
-            </h1></td>
-        </tr>
-    </table>
-    <title>Nikita Melentev CV</title>
 </head>
- <hr color="aquamarine" size="4" noshade width="925" align="left"/>
 <main>
     <body>
-        <br>
-        <h2>My social networks</h2>
-        <ul type="square">
-            <li><a href="https://vk.com/semibald" target="_blank">Vkontakte</a></li>
-            <li><a href="https://t.me/semibald" target="_blank">Telegram</a></li>
-        </ul>
-        <br>
-        <h2>hobbies</h2>
-        <ol type="I">
-            <li>first statement</li>
-            <li>second statement</li>
-        </ol>
-        <h2>Experience</h2>
-        <table>
-            <thead>
-                <tr>
-                    <th>Company</th>
-                    <th>Position</th>
-                    <th>Period</th>
-                </tr>
-            </thead>
-            <tbody>
-                <tr>
-                    <td>Police</td>
-                    <td>Radio Specialist</td>
-                    <td>2016-2020</td>
-                </tr>
-                <tr>
-                    <td>Ramax Group</td>
-                    <td>Analyst</td>
-                    <td>2021-now</td>
-                </tr>
-            </tbody>
-        </table>
-        <h2>Contact me</h2>
-        <form action="/index.html">
-            <label for="name">Your name</label>
-            <input type="text" placeholder="type your name...">
-            <br>
-            <label for="email">Your email</label>
-            <input type="email" placeholder="type your email...">
-            <br>
-            <label for="text">Your message</label>
-            <br>
-            <textarea name="" id="text" cols="18" rows="2"></textarea>
-            <br>
-            <input type="submit" value="Contact me">
-        </form>
-        <h2>Top secret intel is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a></h2>
+        <div class="container">
+            <title>Nikita Melentev CV</title>
+            <div class="personal">
+                <table>
+                    <tr><td><img src="Photo.jpg" alt="here should've been my photo" class="avatar"/></td>
+                    <td><h1>Nikita Melentev</h1>
+                    <p>System analyst with interest in writing code and learning languages not limited to programming</p></tr></td>
+                </table>
+            </div>
+            <hr>
+            <div class="card">
+                <div class="card bg-yellow">
+                    <h2>Social networks</h2>
+                    <a href="https://vk.com/semibald" target="_blank">Vkontakte</a>
+                    |
+                    <a href="https://t.me/semibald" target="_blank">Telegram</a>
+                    </ul>
+                    <hr/>
+                </div>
+                <div class="card bg-green">
+                    <h2>Hobbies</h2>
+                    <p>I am <br>
+                    zaebalsya</p>
+                    <hr/>
+                </div>
+                <div class="card bg-red">
+                    <h2>Experience</h2>
+                    <table>
+                        <!-- <thead>
+                            <tr>
+                                <th>Company</th>
+                                <th>Position</th>
+                                <th>Period</th>
+                            </tr>
+                        </thead> -->
+                        <tbody>
+                            <tr>
+                                <td>Police</td>
+                                <td>Radio Specialist</td>
+                                <td>2016-2020</td>
+                            </tr>
+                            <tr>
+                                <td>Ramax Group</td>
+                                <td>System Analyst</td>
+                                <td>2021-now</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <hr/>
+                </div>  
+                <div class="contactme">
+                    <h2>Contact me</h2>
+                    <form action="/index.html">
+                        <label for="name">Your name:</label>
+                        <input type="text" placeholder="type your name...">
+                        <br>
+                        <label for="email">Your email:</label>
+                        <input type="email" placeholder="type your email...">
+                        <br>
+                        <label for="text">Your message:</label>
+                        <br>
+                        <textarea name="" id="text" ></textarea>
+                        <br>
+                        <input type="submit" value="Contact me">
+                    </form>
+                    <h2>Top secret intel is <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">here</a></h2>
+                </div>
+            </div>
+        </div>
     </body>
 </main>
 </html>

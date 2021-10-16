@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+head {
+    
+    background-color: rgb(236, 236, 220);
+    color: #0f141e;
+
+    
+}
+body{
+    background: ivory;
+    font-family: 'Lato', Geneva, Verdana, sans-serif;
+}
+
+h3 {
+    color: #302121;
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Lato', Geneva, Verdana, sans-serif;
+}
+.avatar {
+    width: 200px;
+    border-radius: 55px;
+    box-shadow: 15px 4px 14px rgba(0, 0, 0, 0.25);
+}
+.personal p{
+    color: #302121;
+    margin: 0;
+    font-style: italic;
+}
+.personal h1 {
+    color: #302121;
+    font-size: 25px;
+    font-weight: 600;
+    font-family: 'Lato', Geneva, Verdana, sans-serif;
+    letter-spacing: 1px;
+    word-spacing: 11px;
+}
+.personal table{
+    /* border-spacing: 25px 0px; */
+}
+.personal p{
+    max-width: 350px;
+    margin-left: 5%;
+}
+.personal h1 {
+    text-align: center;
+}
+.container {
+    max-width: 650px;
+    align-self: center;
+    margin: auto;
+}
+.container hr {
+    border: 2px solid #797b92;
+    max-width: 650px;
+    align-self: center;
+    /* margin-left: 30px; */
+    border-radius: 25%;
+}
+.card {
+    position: relative;
+    padding: 2px 10px;
+    margin-top: 10px;
+    border-radius: 10%;
+    margin-left: 0px;
+}
+.card hr{
+    max-width: 615px;
+    margin-left: 0%;
+    border-radius: 35%;
+}
+.card table{
+    max-width: 615px;
+    width: 100%;
+}
+.card table td:nth-child(2),
+.card table td:nth-child(3){
+    color: #515155;
+}
+/* .card table tr:nth-child(even){
+    background: #ffe5e5;
+} */
+a {
+    color: #302121;
+    text-decoration: none;
+}
+.card a:hover {
+    font-weight: bold;
+}
+.card a:active {
+    color: #1e2581;
+}
+.bg-yellow {
+    background: #fff9dc;
+}
+.bg-green {
+    background: #e5ffe7;
+}
+.bg-red {
+    background: #ffe5e5;
+}
+.contactme textarea {
+    max-width: 650px;
+    width: 50%;
+    font-size: 16;
+    height: 50px;
+}
+.contactme input {
+    width: 37%;
+    max-width: 390px;
+}
+.contactme label {
+    width: 23%;
+    max-width: 260px;
+}
