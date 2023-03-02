@@ -21,5 +21,14 @@ const sendEmail = () => {
   };
   
   const getIPAddress = () => {
-    return "127.0.0.1"; // replace with actual IP address retrieval method
+    const xhr = new XMLHttpRequest();
+    xhr.open("GET", "https://api.ipify.org/?format=json", false);
+    xhr.send();
+  
+    if (xhr.status === 200) {
+      const response = JSON.parse(xhr.responseText);
+      return response.ip;
+    } else {
+      return "unknown";
+    }
   };

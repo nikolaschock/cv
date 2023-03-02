@@ -66,16 +66,16 @@
                     <h2>Contact me</h2>
                     <form action="/index.html">
                         <label for="name">Your name:</label>
-                        <input type="text" placeholder="type your name...">
+                        <input type="text" id="fullname" placeholder="type your name...">
                         <br>
                         <label for="email">Your email:</label>
-                        <input type="email" placeholder="type your email...">
+                        <input type="email" id="email" placeholder="type your email...">
                         <br>
                         <label for="text">Your message:</label>
                         <br>
-                        <textarea name="" id="text" ></textarea>
+                        <textarea name="" id="message" id="text" ></textarea>
                         <br>
-                        <input type="submit" value="Contact me">
+                        <input type="button" onclick="sendEmail()" value="Contact me">
                     </form>
                     <h2>Top secret intel is <a href="/Secret.mp4">here</a></h2>
                 </div>
